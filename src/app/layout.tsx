@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Portfolio Franco Armando",
   description: "Portfolio Franco Armando Next js",
+  icons: {
+    icon: "/maletin.png",
+    apple: "/maletin.png",
+  },
 };
 
 export default function RootLayout({
@@ -17,6 +22,7 @@ export default function RootLayout({
 
       >
         {children}
+        <Analytics/>
       </body>
     </html>
   );
