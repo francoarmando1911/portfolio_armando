@@ -30,19 +30,11 @@ export default function HeroSection() {
                         <Button asChild>
                             <a href="#proyectos">Ver proyectos</a>
                         </Button>
-                        <Button variant="outline" asChild>
+                        <Button asChild>
                             <a href="#contacto">Contacto</a>
                         </Button>
                     </div>
                 </div>
-            </div>
-            <div className="mt-16 flex justify-center">
-                <Button variant="ghost" size="icon" asChild>
-                    <a href="#tecnologias">
-                        <ArrowDown className="h-6 w-6" />
-                        <span className="sr-only">Desplazarse hacia abajo</span>
-                    </a>
-                </Button>
             </div>
         </section>
     )
