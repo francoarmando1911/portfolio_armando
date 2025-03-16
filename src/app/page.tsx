@@ -3,6 +3,8 @@ import HeroSection from "@/components/hero-section";
 import Footer from "@/components/footer";
 import TechStack from "@/components/tech-stack";
 import Projects from "@/components/projects";
+import Education from "@/components/education";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
         <HeroSection/>
         <TechStack/>
         <Projects/>
+        <Education/>
+        <Contact/>
       </main>
       <Footer />
     </div>
