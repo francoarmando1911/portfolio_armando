@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaJava, FaGithub } from "react-icons/fa"
-import { SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si"
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiTypescript } from "react-icons/si"
 
 export function Html5(props: React.ComponentProps<typeof FaHtml5>) {
     return <FaHtml5 className="h-full w-full" {...props} />
@@ -47,4 +47,8 @@ export function GitHub(props: React.ComponentProps<typeof FaGithub>) {
 
 export function Java(props: React.ComponentProps<typeof FaJava>) {
     return <FaJava className="h-full w-full" {...props} />
+}
+
+export function TypeScript(props: React.ComponentProps<typeof SiTypescript>) { // Componente para TypeScript  
+    return <SiTypescript className="h-full w-full" {...props} />
 }

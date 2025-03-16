@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Html5, Css3, Javascript, ReactLogo, Nodejs, Database, Git, Java, TailwindLogo, NextLogo, Mongo, GitHub } from "@/components/tech-icons"
+import { Html5, Css3, Javascript, ReactLogo, Nodejs, Database, Git, Java, TailwindLogo, NextLogo, Mongo, GitHub, TypeScript } from "@/components/tech-icons"
 
 export default function TechStack() {
     const technologies = [
@@ -8,6 +8,7 @@ export default function TechStack() {
         { name: "Java POO", icon: <Java className="h-12 w-12" /> },
         { name: "JavaScript", icon: <Javascript className="h-12 w-12" /> },
         { name: "React", icon: <ReactLogo className="h-12 w-12" /> },
+        { name: "Typescript", icon: <TypeScript className="h-12 w-12" /> },
         { name: "Tailwind CSS", icon: <TailwindLogo className="h-12 w-12" /> },
         { name: "Next.js", icon: <NextLogo className="h-12 w-12" /> },
         { name: "Node.js", icon: <Nodejs className="h-12 w-12" /> },
