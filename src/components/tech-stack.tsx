@@ -15,7 +15,7 @@ export default function TechStack() {
         { name: "SQL", icon: <Database className="h-12 w-12" /> },
         { name: "MongoDB", icon: <Mongo className="h-12 w-12" /> },
         { name: "Git", icon: <Git className="h-12 w-12" /> },
-        { name: "Git", icon: <GitHub className="h-12 w-12" /> },
+        { name: "GitHub", icon: <GitHub className="h-12 w-12" /> },
     ]
 
     return (
@@ -28,12 +28,12 @@ export default function TechStack() {
             </div>
             <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 justify-items-center">
                 {technologies.map((tech, index) => (
-                    <Card key={index} className="border-none bg-accent/50 transition-all hover:bg-accent">
-                        <CardContent className="flex flex-col items-center justify-center p-6">
+                    <Card key={index} className="h-32 w-32 border-none bg-accent/50 transition-all hover:bg-accent">
+                        <CardContent className="h-full w-full flex flex-col items-center justify-center p-6">
                             <div className="h-12 w-12 flex items-center justify-center">
                                 {tech.icon}
                             </div>
-                            <h3 className="mt-4 font-medium text-center">{tech.name}</h3>
+                            <h3 className="mt-4 font-medium text-center text-sm">{tech.name}</h3>
                         </CardContent>
                     </Card>
                 ))}
