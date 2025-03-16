@@ -8,7 +8,7 @@ export default function HeroSection() {
             <div className="grid gap-8 md:grid-cols-2 md:items-center">
                 <div className="flex justify-center md:order-2">
                     <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-primary md:h-80 md:w-80">
-                        <Image src="/maletin.png" alt="Tu foto" fill className="object-cover" priority />
+                        <Image src="/perfil.png" alt="Tu foto" fill className="object-cover" priority />
                     </div>
                 </div>
                 <div className="space-y-6 text-center md:order-1 md:text-left">
