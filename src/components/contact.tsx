@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 export default function Contact() {
     return (
@@ -23,13 +24,13 @@ export default function Contact() {
                         <div className="grid gap-6 md:grid-cols-3">
                             <Button variant="outline" size="lg" className="h-24 flex-col gap-2" asChild>
                                 <a href="https://github.com/francoarmando1911" target="_blank" rel="noopener noreferrer">
-                                    <Github className="h-8 w-8" />
+                                    <FaGithub className="h-8 w-8" />
                                     <span>GitHub</span>
                                 </a>
                             </Button>
                             <Button variant="outline" size="lg" className="h-24 flex-col gap-2" asChild>
                                 <a href="https://www.linkedin.com/in/franco-armando/" target="_blank" rel="noopener noreferrer">
-                                    <Linkedin className="h-8 w-8" />
+                                    <FaLinkedin className="h-8 w-8" />
                                     <span>LinkedIn</span>
                                 </a>
                             </Button>
