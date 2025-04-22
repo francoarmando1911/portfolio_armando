@@ -16,7 +16,7 @@ export default function Contact() {
                     <CardHeader>
                         <CardTitle>Conectemos</CardTitle>
                         <CardDescription>
-                            Estoy abierto a oportunidades de trabajo, colaboraciones o simplemente charlar sobre tecnología.
+                            Estoy abierto a oportunidades de trabajo o colaboraciones.
                         </CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col gap-6">
