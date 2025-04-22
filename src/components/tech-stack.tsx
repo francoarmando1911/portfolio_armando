@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Html5, Css3, Javascript, ReactLogo, Nodejs, Database, Git, Java, TailwindLogo, NextLogo, Mongo, GitHub, TypeScript } from "@/components/tech-icons"
+import { Html5, Css3, Javascript, ReactLogo, Database, Git, Java, TailwindLogo, TypeScript, AngularLogo, SassLogo, Mongo, GitHub } from "@/components/tech-icons"
 
 export default function TechStack() {
     const technologies = [
@@ -10,8 +10,8 @@ export default function TechStack() {
         { name: "React", icon: <ReactLogo className="h-12 w-12" /> },
         { name: "Typescript", icon: <TypeScript className="h-12 w-12" /> },
         { name: "Tailwind CSS", icon: <TailwindLogo className="h-12 w-12" /> },
-        { name: "Next.js", icon: <NextLogo className="h-12 w-12" /> },
-        { name: "Node.js", icon: <Nodejs className="h-12 w-12" /> },
+        { name: "Angular v18", icon: <AngularLogo className="h-12 w-12" /> },
+        { name: "Sass", icon: <SassLogo className="h-12 w-12" /> },
         { name: "SQL", icon: <Database className="h-12 w-12" /> },
         { name: "MongoDB", icon: <Mongo className="h-12 w-12" /> },
         { name: "Git", icon: <Git className="h-12 w-12" /> },
@@ -23,7 +23,7 @@ export default function TechStack() {
             <div className="space-y-6 text-center">
                 <h2 className="text-3xl font-bold tracking-tight md:text-4xl">Tecnologías</h2>
                 <p className="mx-auto max-w-3xl text-muted-foreground">
-                    Estas son las tecnologías con las que trabajo habitualmente para desarrollar aplicaciones web modernas y eficientes.
+                    Estas son las tecnologías con las que he trabajado para desarrollar aplicaciones web modernas y eficientes.
                 </p>
             </div>
             <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 justify-items-center">

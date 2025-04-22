@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaJava, FaGithub } from "react-icons/fa"
-import { SiTailwindcss, SiNextdotjs, SiMongodb, SiTypescript } from "react-icons/si"
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiTypescript, SiAngular, SiSass } from "react-icons/si"
 
 export function Html5(props: React.ComponentProps<typeof FaHtml5>) {
     return <FaHtml5 className="h-full w-full" {...props} />
@@ -23,6 +23,14 @@ export function TailwindLogo(props: React.ComponentProps<typeof SiTailwindcss>) 
 
 export function NextLogo(props: React.ComponentProps<typeof SiNextdotjs>) {
     return <SiNextdotjs className="h-full w-full" {...props} />
+}
+
+export function AngularLogo(props: React.ComponentProps<typeof SiAngular>) {
+    return <SiAngular className="h-full w-full" {...props} />
+}
+
+export function SassLogo(props: React.ComponentProps<typeof SiSass>) {
+    return <SiSass className="h-full w-full" {...props} />
 }
 
 export function Nodejs(props: React.ComponentProps<typeof FaNodeJs>) {

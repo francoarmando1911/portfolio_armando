@@ -18,10 +18,11 @@ export default function HeroSection() {
                     </h1>
                     <p className="text-xl text-muted-foreground md:text-2xl">Desarrollador Web Full Stack</p>
                     <p className="text-muted-foreground text-justify md:text-left">
-                        Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN FRCU, con experiencia en
+                        Soy estudiante de la Tecnicatura Universitaria en Programación en la Universidad Tecnologica 
+                        Nacional (sede Concepcion del Uruguay), con experiencia en
                         desarrollo web moderno y conocimientos en Programación Orientada a Objetos con Java.
 
-                        Me especializo en tecnologías como JavaScript, React, TypeScript, TailwindCSS y Next.js,
+                        Me especializo en tecnologías como React y Angular, tambien poseo conocimientos en el framework Spring para el desarrollo de API REST,
                         siempre en busca de soluciones innovadoras. Me considero una persona comprometida, proactiva y en
                         constante aprendizaje, listo para afrontar nuevos desafíos en el mundo del desarrollo web.
                     </p>

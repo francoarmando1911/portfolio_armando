@@ -43,7 +43,7 @@ export default function Projects() {
             description: "Landing page para emprendimiento personal. (Proyecto de mi emprendimiento personal)",
             image: "/intraNuevo.png",
             tags: ["Next js", "Typescript", "Tailwind"],
-            demoUrl: "https://controlpacientesveterinaria.netlify.app/",
+            demoUrl: "https://intra-software-next.vercel.app/",
             repoUrl: "https://github.com/francoarmando1911/IntraSoftwareNext",
         },
         {
@@ -106,17 +106,11 @@ export default function Projects() {
                                 ))}
                             </div>
                         </CardContent>
-                        <CardFooter className="flex justify-between">
-                            <Button variant="outline" size="sm" asChild>
-                                <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                                    <Github className="mr-2 h-4 w-4" />
-                                    Código
-                                </a>
-                            </Button>
+                        <CardFooter className="flex justify-center">
                             <Button size="sm" asChild>
                                 <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
                                     <ExternalLink className="mr-2 h-4 w-4" />
-                                    Demo
+                                    Prueba proyecto
                                 </a>
                             </Button>
                         </CardFooter>
